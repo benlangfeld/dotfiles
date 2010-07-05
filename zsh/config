@@ -52,4 +52,4 @@ bindkey '^?' backward-delete-char
 export NARWHAL_ENGINE=jsc
 export PATH="/Users/ben/narwhal/bin:$PATH"
 
-export CAPP_BUILD="~/Dropbox/Programming/cappuccino/Build"
+export CAPP_BUILD="~/Dropbox/Programming/Software/Cappuccino/source/Build"
