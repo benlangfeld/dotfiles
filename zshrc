@@ -1,7 +1,3 @@
-. ~/.zsh/config
-. ~/.zsh/aliases
-. ~/.zsh/completion
-
 # Path to your oh-my-zsh configuration.
 export ZSH=$HOME/.zsh/oh-my-zsh
 
@@ -25,6 +21,9 @@ plugins=(git lighthouse osx ruby textmate)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+. ~/.zsh/config
+. ~/.zsh/aliases
+. ~/.zsh/completion
 
 # use .localrc for settings specific to one system
 [[ -f ~/.localrc ]] && . ~/.localrc
