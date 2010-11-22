@@ -3,7 +3,7 @@ export ZSH=$HOME/.zsh/oh-my-zsh
 
 # Set to the name theme to load.
 # Look in ~/.zsh/oh-my-zsh/themes/
-export ZSH_THEME="geoffgarside"
+export ZSH_THEME="benlangfeld"
 
 # Set to this to use case-sensitive completion
 # export CASE_SENSITIVE="true"
