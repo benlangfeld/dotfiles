@@ -6,6 +6,7 @@ export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
 
 export NARWHAL_ENGINE=jsc
-export PATH="/Users/ben/narwhal/bin:$PATH"
+export PATH="/usr/local/narwhal/bin:$PATH"
+export CAPP_BUILD="/Users/ben/code/cappuccino/build"
 
 if [[ -s /Users/ben/.rvm/scripts/rvm ]] ; then source /Users/ben/.rvm/scripts/rvm ; fi
