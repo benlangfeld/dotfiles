@@ -21,6 +21,8 @@ plugins=(git lighthouse osx ruby textmate)
 source $ZSH/oh-my-zsh.sh
 
 # Customize to your needs...
+unsetopt auto_name_dirs
+. ~/.cinderella.profile
 . ~/.zsh/config
 . ~/.zsh/aliases
 . ~/.zsh/completion
