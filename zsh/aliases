@@ -20,7 +20,7 @@ alias grm="git status | grep deleted | awk '{print \$3}' | xargs git rm"
 alias changelog='git log `git log -1 --format=%H -- CHANGELOG*`..; cat CHANGELOG*'
 
 # rails
-alias a='autotest -rails'
+alias it='infinity_test --rails --rspec'
 alias scaffold='script/rails generate nifty:scaffold'
 alias rst='touch tmp/restart.txt'
 
@@ -31,3 +31,5 @@ alias %=' '
 alias ju="jackup -e \"require('jack/file').File('.')\" -E deployment"
 
 alias slt='open -a "Sublime Text 2"'
+
+alias taganddeploy="git tag -f production && git push origin master && git push origin production && cap deploy"
