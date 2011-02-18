@@ -34,3 +34,5 @@ alias %=' '
 
 # cappuccino
 alias ju="jackup -e \"require('jack/file').File('.')\" -E deployment"
+
+alias slt='open -a "Sublime Text 2"'
