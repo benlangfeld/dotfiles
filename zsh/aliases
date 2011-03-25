@@ -32,4 +32,4 @@ alias ju="jackup -e \"require('jack/file').File('.')\" -E deployment"
 
 alias slt='open -a "Sublime Text 2"'
 
-alias taganddeploy="git tag -f production && git push origin master && git push origin production && cap deploy"
+alias taganddeploy="git tag -f production && git push origin master && git push origin production && bundle exec cap deploy"
