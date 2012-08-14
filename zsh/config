@@ -1,5 +1,5 @@
-export EDITOR='mate -w'
-export GIT_EDITOR='mate -wl1'
+export EDITOR='subl'
+export GIT_EDITOR='subl -w'
 export LESSEDIT='mate -l %lm %f'
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
