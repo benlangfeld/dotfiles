@@ -32,3 +32,5 @@ alias sha256sum='shasum -a 256'
 
 alias fuck='sudo $(fc -ln -1)'
 alias please='fuck'
+
+alias docker-clean='docker ps -a -q | xargs docker rm; docker images -a | grep "^<none>" | awk "{print $3}" | xargs docker rmi'
