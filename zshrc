@@ -31,3 +31,6 @@ unsetopt auto_name_dirs
 
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+
+# added by travis gem
+source /Users/ben/.travis/travis.sh
