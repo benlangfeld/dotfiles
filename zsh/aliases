@@ -26,3 +26,6 @@ alias less='less -R'
 
 # commands starting with % for pasting from web
 alias %=' '
+
+alias fuck='sudo $(fc -ln -1)'
+alias please='fuck'
