@@ -16,7 +16,7 @@ export ZSH_THEME="crunch"
 
 # Which plugins would you like to load? (plugins can be found in ~/.zsh/oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git osx ruby jruby textmate rails3 brew cap github gem bundler git-flow heroku rbenv vagrant)
+plugins=(git osx ruby jruby textmate rails3 brew cap github gem bundler git-flow heroku rbenv vagrant knife)
 
 source $ZSH/oh-my-zsh.sh
 
