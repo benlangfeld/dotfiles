@@ -27,5 +27,8 @@ alias less='less -R'
 # commands starting with % for pasting from web
 alias %=' '
 
+alias sha256='shasum -a 256'
+alias sha256sum='shasum -a 256'
+
 alias fuck='sudo $(fc -ln -1)'
 alias please='fuck'
