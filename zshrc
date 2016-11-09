@@ -16,7 +16,7 @@ export ZSH_THEME="benlangfeld"
 
 # Which plugins would you like to load? (plugins can be found in ~/.zsh/oh-my-zsh/plugins/*)
 # Example format: plugins=(rails git textmate ruby lighthouse)
-plugins=(git osx ruby jruby textmate rails3 brew cap github gem bundler git-flow heroku rbenv vagrant knife)
+plugins=(git osx ruby rails3 brew cap gem bundler rbenv vagrant nvm)
 
 source $ZSH/oh-my-zsh.sh
 
