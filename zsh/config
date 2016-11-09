@@ -1,6 +1,6 @@
-export EDITOR='subl'
-export GIT_EDITOR='subl -w'
-export LESSEDIT='mate -l %lm %f'
+export EDITOR='atom'
+export GIT_EDITOR='atom --wait'
+export LESSEDIT='atom --wait'
 export CLICOLOR=1
 export LSCOLORS=ExFxCxDxBxegedabagacad
 export PATH="$HOME/bin:$HOME/.bin:/usr/local/homebrew/bin:/usr/local/bin:/usr/local/sbin:/usr/local/mysql/bin:/usr/local/git/bin:$PATH"
