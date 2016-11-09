@@ -29,9 +29,6 @@ unsetopt auto_name_dirs
 # use .localrc for settings specific to one system
 [[ -f ~/.localrc ]] && . ~/.localrc
 
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-
 # added by travis gem
 source /Users/ben/.travis/travis.sh
 
