@@ -28,11 +28,3 @@ unsetopt auto_name_dirs
 
 # use .localrc for settings specific to one system
 [[ -f ~/.localrc ]] && . ~/.localrc
-
-# added by travis gem
-source /Users/ben/.travis/travis.sh
-
-export GOPATH=$HOME/go
-export PATH=$PATH:$GOPATH/bin
-
-export PATH=$HOME/.chefdk/gem/ruby/2.1.0/bin:/opt/chefdk/bin:$PATH

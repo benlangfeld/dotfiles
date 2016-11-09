@@ -8,10 +8,6 @@ export MANPATH="/usr/local/man:/usr/local/mysql/man:/usr/local/git/man:$MANPATH"
 export RBXOPT=-X19
 export JRUBY_OPTS=--1.9
 
-export OPSCODE_USER=benlangfeld
-
-$(boot2docker shellinit)
-
 fpath=(~/.zsh/functions $fpath)
 
 autoload -U ~/.zsh/functions/*(:t)
